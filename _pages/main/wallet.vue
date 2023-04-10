@@ -44,7 +44,7 @@
         <div class="box box-auto-height q-mb-md bg-amber text-white">
           <div class="text-weight-bold">
             <q-icon name="fas fa-history"/>
-            {{this.$tr('isite.cms.label.pending')}}
+            {{ this.$tr('isite.cms.label.pending') }}
           </div>
           {{ $trn(this.summary.amountPending) }}
         </div>
@@ -162,7 +162,11 @@ export default {
             amountPending: 0
           }
           resolve(resolve.data)
-        }).catch(err => resolve(false))
+        }).catch(err => {
+          this.$apiResponse.handleError(error, () => {
+            resolve(false)
+          })
+        })
       })
     },
     //withdraw
