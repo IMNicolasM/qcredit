@@ -51,7 +51,7 @@
       </div>
     </div>
     <!--Credits-->
-    <crud :crud-data="import('@imagina/qcredit/_crud/wallet')"/>
+    <crud :crud-data="import('modules/qcredit/_crud/wallet')"/>
     <!--Modal to withdrawal-->
     <master-modal v-model="modal.show" v-bind="modalConfig.props">
       <div class="box box-auto-height">
@@ -69,7 +69,7 @@
 
 <script>
 //Components
-import payoutConfig from '@imagina/qcommerce/_components/payout'
+import payoutConfig from 'modules/qcommerce/_components/payout'
 
 export default {
   props: {},
