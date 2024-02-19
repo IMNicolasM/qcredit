@@ -33,7 +33,7 @@
       <div class="col-6 col-sm-3">
         <div class="box box-auto-height q-mb-md bg-red-4 text-white">
           <div class="text-weight-bold">
-            <q-icon name="fas fa-caret-down"/>
+            <q-icon name="fa-solid fa-caret-down"/>
             {{ this.$tr('isite.cms.label.outbound') }}
           </div>
           {{ $trn(this.summary.amountOut) }}
