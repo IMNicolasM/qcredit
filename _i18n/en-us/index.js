@@ -1,7 +1,19 @@
-import layout from 'modules/qcredit/_i18n/en-us/layout'
-import sidebar from 'modules/qcredit/_i18n/en-us/sidebar'
-
 export default {
-  layout,
-  sidebar
+  "icredit": {
+    "cms": {
+      "sidebar": {
+        "adminWallet": "Wallet"
+      },
+      "label": {
+        "wallet": "Wallet",
+        "amountAvailable": "Amount available",
+        "withdrawal": "withdrawal"
+      },
+      "message": {
+        "notAmountAvailable": "No amount available",
+        "invalidAmount": "The value entered for withdrawal is not valid",
+        "showPanel": "Show Panel"
+      }
+    }
+  }
 }
