@@ -1,7 +1,19 @@
-import layout from 'modules/qcredit/_i18n/es/layout'
-import sidebar from 'modules/qcredit/_i18n/es/sidebar'
-
 export default {
-  layout,
-  sidebar
+  "icredit": {
+    "cms": {
+      "sidebar": {
+        "adminWallet": "Mi Billetera"
+      },
+      "label": {
+        "wallet": "Billetera",
+        "amountAvailable": "Cantidad disponible",
+        "withdrawal": "Nuevo retiro"
+      },
+      "message": {
+        "notAmountAvailable": "Sin saldo disponible",
+        "invalidAmount": "El valor ingresado para el retiro no es valido",
+        "showPanel": "Ver mi Panel"
+      }
+    }
+  }
 }
